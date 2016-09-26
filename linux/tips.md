@@ -9,3 +9,7 @@ type -p    show external command, use like 'which'
 ## chgrp
 chgrp -R groupname filename  
 
+## head tail 
+xx|head -1   get first line
+xx|tail -1   get last line
+
