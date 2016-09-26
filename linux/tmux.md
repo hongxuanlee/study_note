@@ -35,6 +35,10 @@ Ctrl-b d
 tmux kill-session -t session-name
 ```
 
+### project
+* `prefix + opytion + [arrow key]` adjust the window size
+* `z` magnify current window
+
 ### configuration
 * ~/.tmux.conf
 * see ./tmux.conf
