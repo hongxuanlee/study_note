@@ -7,16 +7,18 @@ Ctrl-b s
 ```
 tmux ls
 ```
-### into tmux command mode
+### scroll
 ```
-:
+// first
+prefix + [ 
+//secont
+fn + <arrow>
 ```
 ### create a new session
 ```
 tmux new -s session-name
 tmux new
 ```
-
 ### attaching to an existing session
 ```
 tmux a // connect you to the first available session
@@ -53,12 +55,13 @@ tmux kill-session -t session-name
 * `n` change to the next window
 * `p` change to the previous window
 * `0 to 9` select windows 0 through 9
+* `&` kill window
 
 ### Panes
 * `%` create a horizontal pane
 * `"` create a vertical pane
 * `q` show pane numbers
-* `o` toggle between panes
+* `o` toggle between panes !!!
 * `}` swap with next pane
 * `{` swap with previous pane
 * `!` break the pane out of the window / force quit current pane
