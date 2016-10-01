@@ -25,3 +25,10 @@
 
 ### delete
 * `de` delete word
+
+### plugin 
+* `:BundleInstall` 
+* `:BundleUpdate`
+* `:BundleClean` 
+* `:BundleList`
+* `:BundleSearch`
