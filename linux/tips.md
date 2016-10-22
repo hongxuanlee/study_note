@@ -13,3 +13,6 @@ chgrp -R groupname filename
 xx|head -1   get first line
 xx|tail -1   get last line
 
+## find port process 
+lsof -i:80
+netstat -an | grep 3306
